@@ -37,7 +37,7 @@ var ProjectCell = React.createClass({
               {project.name}
             </Text>
             <Text style={styles.projectDetail}>
-              Posted by <Text style={{color: '#4E8EF7'}}> {project.city} </Text> | 年龄 {project.age}
+              位于: <Text style={{color: '#4E8EF7'}}> {project.city} </Text> | 年龄 {project.age}
             </Text>
           </View>
         </View>

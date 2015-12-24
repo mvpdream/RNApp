@@ -24,7 +24,7 @@ var style={
    alignItems: 'center',
    padding: 10,
    marginVertical: 5,
-   height:76,
+   height:62,
    backgroundColor:'black'
  },
  text:{

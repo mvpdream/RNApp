@@ -17,7 +17,7 @@ var ProjectList = React.createClass({
   },
 
   componentDidMount: function() {
-    DataService.getProjectList()
+    DataService.getUsers()
       .then( responseData => {
         this.setState({
           dataSource: this.state.dataSource.cloneWithRows(responseData),
